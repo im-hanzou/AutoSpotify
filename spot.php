@@ -216,8 +216,8 @@ echo "$Grey ╰┈➤ Your choice $hai";
 reg:
 echo "\n\n";
 echo "$Yellow Trying to register on spotify use random email ";
-$email = randUser() . "@nhazlipse.my.id";
-$pass = "@iniPassw0rd123@";
+$email = randUser() . "@famoseo.org";
+$pass = "@iniPassw0rd123";
 $register = signup($email, $pass);
 $json = json_decode($register, true);
 if (preg_match('/success/i', $register)) {
