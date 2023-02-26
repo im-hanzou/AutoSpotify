@@ -97,7 +97,7 @@ function signup($email, $pass)
       "send_email": true,
       "third_party_email": false
     },
-    "display_name": "Bintang",
+    "display_name": "Hanzou",
     "email_and_password_identifier": {
       "email": "' . $email . '",
       "password": "' . $pass . '"
@@ -216,8 +216,8 @@ echo "$Grey ╰┈➤ Your choice $hai";
 reg:
 echo "\n\n";
 echo "$Yellow Trying to register on spotify use random email ";
-$email = randUser() . "@st4rz.me";
-$pass = "@Akusayangibu123";
+$email = randUser() . "@nhazlipse.my.id";
+$pass = "@iniPassw0rd123@";
 $register = signup($email, $pass);
 $json = json_decode($register, true);
 if (preg_match('/success/i', $register)) {
