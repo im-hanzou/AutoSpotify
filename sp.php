@@ -106,7 +106,7 @@ function signup($email, $pass)
   },
   "callback_uri": "https://www.spotify.com/signup/challenge?forward_url\u003dhttps%3A%2F%2Fwww.spotify.com%2Faccount%2Foverview%2F\u0026locale\u003did",
   "client_info": {
-    "api_key": "bff58e9698f40080ec4f9ad97a2f21e0",
+    "api_key": "22342b06d84c4a4c9bd1c619de5cee71",
     "app_version": "v2",
     "capabilities": [
       1
